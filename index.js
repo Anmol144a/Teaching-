@@ -43,7 +43,7 @@ async function fetchDataWithRetry(username, retries = 2) {
 app.get('/', (req, res) => {
   res.send('tiktok');
 });
-app.get('/kshitiz', async (req, res) => {
+app.get('/anmol', async (req, res) => {
   try {
     const username = req.query.username;
     if (!username) {
